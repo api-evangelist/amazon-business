@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Amazon Business is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://business.amazon.com
+Amazon Business provides a B2B marketplace offering procurement solutions, bulk purchasing, spend management, and compliance tools for businesses of all sizes. It enables organizations to create business-only storefronts, access exclusive pricing, manage approvals, and integrate purchasing workflows with existing systems, supporting a wide range of industries and use cases.
+
+**Areas:** Company · B2B · Procurement · Marketplace · BulkPurchasing
+
+## Amazon Business on APIs.io
+
+Everything profiled for Amazon Business is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/amazon-business/](https://apis.io/providers/amazon-business/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Amazon Business API](https://apis.io/apis/amazon-business/amazon-business-api-2/) — APIs for Amazon Business platform
+- [Amazon Business Ab Invoice API](https://apis.io/apis/amazon-business/amazon-business-ab-invoice-api/) — The Ab Invoice API from Amazon Business — 3 operation(s) for ab invoice.
+- [Amazon Business Cart API](https://apis.io/apis/amazon-business/amazon-business-cart-api/) — The Cart API from Amazon Business — 4 operation(s) for cart.
+- [Amazon Business Ordering API](https://apis.io/apis/amazon-business/amazon-business-ordering-api/) — The Ordering API from Amazon Business — 2 operation(s) for ordering.
+- [Amazon Business Products API](https://apis.io/apis/amazon-business/amazon-business-products-api/) — The Products API from Amazon Business — 3 operation(s) for products.
+- [Amazon Business Reports API](https://apis.io/apis/amazon-business/amazon-business-reports-api/) — The Reports API from Amazon Business — 3 operation(s) for reports.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Amazon Business Webhooks](https://apis.io/asyncapis/amazon-business/amazon-business-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DeleteCart20250430CartsCartidItemsResponse](https://apis.io/schemas/amazon-business/amazon-business-delete-cart20250430-carts-cartid-items-response/)
+- [GetAbInvoice20260201InvoicesInvoicenumberLineitemsResponse](https://apis.io/schemas/amazon-business/amazon-business-get-ab-invoice20260201-invoices-invoicenumber-lineitems-response/)
+- [GetAbInvoice20260201InvoicesInvoicenumberResponse](https://apis.io/schemas/amazon-business/amazon-business-get-ab-invoice20260201-invoices-invoicenumber-response/)
+- [GetAbInvoice20260201InvoicesResponse](https://apis.io/schemas/amazon-business/amazon-business-get-ab-invoice20260201-invoices-response/)
+- [GetCart20250430CartsResponse](https://apis.io/schemas/amazon-business/amazon-business-get-cart20250430-carts-response/)
+- [PostProducts20200826ProductsGetproductsbyasinsRequest](https://apis.io/schemas/amazon-business/amazon-business-post-products20200826-products-getproductsbyasins-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Amazon Business Context](https://apis.io/jsonld/amazon-business/amazon-business-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Amazon Business API Rules](https://apis.io/rules/amazon-business/amazon-business-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Amazon Business Authentication](https://apis.io/security/amazon-business/amazon-business-authentication/)
+- [Amazon Business Domain Security](https://apis.io/security/amazon-business/amazon-business-domain-security/)
+- [Amazon Business Vulnerability Disclosure](https://apis.io/security/amazon-business/amazon-business-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://business.amazon.com)
+- [Documentation](https://business.amazon.com/en/solutions)
+- [Getting started](https://business.amazon.com/en/register)
+- [Support](https://business.amazon.com/en/contact-us)
+- [Changelog](https://business.amazon.com/en/release-notes)
+- [Blog](https://business.amazon.com/en/blog)
+- [Security](https://hackerone.com/amazonvrp)
+- [Terms of service](https://developer.amazon.com/terms-and-agreements)
+- [GitHub](https://github.com/AmazonAppDev)
+
+## API Evangelist rating
+
+**Kin Score 40.2** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 32.4 |
+| Contract governance | 22.0 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 23.7 |
+
+**Agent readiness 33.7** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 26.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/amazon-business/](https://apis.io/providers/amazon-business/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Amazon Business: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/amazon-business/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
